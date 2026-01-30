@@ -48,7 +48,9 @@ No installation required! This is a vanilla JS project.
 
 1.  Clone the repo:
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/gemini-particle-system.git](https://github.com/YOUR_USERNAME/gemini-particle-system.git)
+   <script src="https://cdn.jsdelivr.net/npm/three@0.150.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script> git clone [https://github.com/YOUR_USERNAME/gemini-particle-system.git](https://github.com/YOUR_USERNAME/gemini-particle-system.git)
     ```
 2.  Open `index.html` in your browser.
     * *Note: For MediaPipe to work correctly locally, it is recommended to use a local server (like Live Server in VS Code) due to browser security policies regarding webcams.*
